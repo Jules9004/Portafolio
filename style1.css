@@ -1,0 +1,362 @@
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+@media (min-width: 700px) {
+   
+    .menu__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 16px;
+        gap: 10px;
+        width: 360px;
+        height: 56px;
+    }
+    /*title*/
+    .banner__div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+        width: 360px;
+        height: 294px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+        width: 360px;
+        height: 350px;
+        background: #EAF2FD;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    /*Skills*/
+    .skills__line{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+        gap: 32px;
+        width: 360px;
+        height: 508px;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    
+    /*Hobbies*/
+
+    
+    /*experiências acadêmicas*/
+
+    .academic__courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        width: 360px;
+        height: 661px;
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    /*expeirência profissional*/
+
+    #xp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 16px;
+        width: 360px;
+        height: 1321px;
+        flex: none;
+        order: 6;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+        
+    #contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 10px;
+        width: 360px;
+        height: 675px;
+        background: #EAF2FD;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+       
+    /*Menu*/
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px
+    }
+    /*main*/
+    
+
+    .banner__div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        width: 768px;
+        height: 210px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    /*Sessão sobre*/
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 10px;
+        width: 768px;
+        height: 286px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+   
+
+    /*Skills*/
+    .skills__line{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        width: 768px;
+        height: 390px;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+   
+   
+    /*Hobbies*/
+
+    
+
+    /*Formação Acadêmica*/
+
+    .academic__courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px;
+        gap: 32px;
+        width: 768px;
+        height: 291px;
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    /*Experiência Profissional*/
+    #xp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 16px;
+        width: 768px;
+        height: 2017px;
+        flex: none;
+        order: 6;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+        section.experience div.experiencia-box:nth-child(2) {
+            margin-top: 50px;
+    }
+        section.experience div.experiencia-box:nth-child(3) {
+            flex-direction: row-reverse;
+    }
+        section.experience div.experiencia-box:nth-child(5) {
+            flex-direction: row-reverse;
+    }
+    
+
+    /*Contato*/
+
+    .formcontacto__contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 10px;
+        width: 768px;
+        height: 637px;
+        background: #EAF2FD;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    /*Footer*/
+
+    .footer__rodapie {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        gap: 10px;
+        width: 768px;
+        height: 102px;
+        background: #FFFFFF;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+   
+    .banner__div{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        gap: 208px;
+        width: 1200px;
+        height: 368px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 64px;
+        gap: 10px;
+        width: 1440px;
+        height: 383px;
+        background: #EAF2FD;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .skills__line{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        gap: 22px;
+        width: 1136px;
+        height: 244px;
+
+        align-items: center;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .skills__box {
+        margin: 22px 15px 22px 0px;
+        width: 156px;
+        height: 118px;
+    }
+    
+    .hobbies__line {
+        justify-content: center;
+    }
+
+    .hobbies__box {
+        margin: 22px 15px 22px 0px;
+        width: 156px;
+        height: 118px;
+    }
+    .academic__courses{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        gap: 12px;
+        width: 1240px;
+        height: 581px;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    #xp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 1396px;
+        height: 886px;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+    #contacto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 64px 0px 0px;
+        gap: 16px;
+        width: 1136px;
+        height: 660px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .footer__rodapie{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        gap: 10px;
+        width: 1440px;
+        height: 5020px;
+        background: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
